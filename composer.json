@@ -1,0 +1,29 @@
+{
+    "name": "taoka3/threads",
+    "description": "Custom Laravel threads package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "taoka toshiaki"
+        }
+    ],
+    "require": {
+        "php": "^8.2 || ^8.3",
+        "laravel/framework": "^10.0 || ^11.0 || ^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "taoka3\\Threads\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "taoka3\\Threads\\ThreadsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
